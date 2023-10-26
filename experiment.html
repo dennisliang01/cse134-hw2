@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Dennis Liang Portfolio Website</title>
+        <link rel="stylesheet" href="./style.css">
+        <style>
+            table, th, td {
+            border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="workExperience.html">Work Experience</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="hobby.html">Hobby</a></li>
+                <li><a href="contactMe.html">Contact Me</a></li>
+                <li><a href="experiment.html">Experiment</a></li>
+            </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Experiment Page</h2>
+            <section>
+                <h3>Aside Tag</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere iste quod blanditiis dicta modi magni tempore omnis est neque. Temporibus nihil, atque esse libero sit ullam deserunt voluptatum quisquam quis.</p>
+
+                <aside>
+                    <p>Example of the aside tag</p>
+                </aside>
+
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum facere ullam, quidem autem sunt at rerum voluptatum accusamus quasi voluptatibus cupiditate officia quam praesentium repellat aliquam a! Minima, fugit rerum.</p>
+            </section>
+            <section>
+                <h3>Code Tag</h3>
+                <code>
+                    System.out.println("Hello World")
+                </code>
+            </section>
+            <section>
+                <h3>Audio Tag</h3>
+                <audio controls>
+                    <source src="assets/audio/piano.mp3" type="audio/mpeg">
+                </audio>
+            </section>
+            <section>
+                <h3>Video Tag</h3>
+                <video width="320" height="240" controls>
+                    <source src="assets/video/nightSky.mp4" type="video/mp4">
+                </video>
+            </section>
+            <section>
+                <h3>Figure and Figcaption Tag</h3>
+                <figure>
+                    <img src="assets\images\fallenStar.jpg" alt="UCSD Fallen Star Building Image" width=300>
+                    <figcaption>Fig.1 - Fallen Star, UCSD Stuart Collection.</figcaption>
+                </figure>
+            </section>  
+            <section>
+                <h3>Table and Caption Tag</h3>
+                <table>
+                    <caption>Days in Month</caption>
+                    <tr>
+                        <th>Month</th>
+                        <th>Day in Month</th>
+                    </tr>
+                    <tr>
+                        <td>January</td>
+                        <td>31</td>
+                    </tr>
+                    <tr>
+                        <td>February</td>
+                        <td>28/29</td>
+                    </tr>
+                    <tr>
+                        <td>March</td>
+                        <td>31</td>
+                    </tr>
+                </table>
+            </section>
+            <section>
+                <h3>Button Tag</h3>
+                <button type="button">Click Me!</button>
+            </section>
+            <section>
+                <h3>Datalist Tag</h3>
+                <label for="day-of-week-choice">Choose your favorite day:</label>
+                <input list="day-of-week" id="day-of-week-choice" name="day-of-week-choice">
+                <datalist id="day-of-week">
+                    <option value="Monday"></option>
+                    <option value="Tuesday"></option>
+                    <option value="Wednesday"></option>
+                    <option value="Thursday"></option>
+                    <option value="Friday"></option>
+                    <option value="Saturday"></option>
+                    <option value="Sunday"></option>
+                </datalist>
+            </section>
+            <section>
+                <h3>Optgroup Tag</h3>
+                <form>
+                    <label for="countries">Favorite Country:</label>
+                    <select name="countries" id="countries">
+                      <optgroup label="Asia">
+                        <option value="china">China</option>
+                        <option value="southKorea">South Korea</option>
+                      </optgroup>
+                      <optgroup label="North America">
+                        <option value="usa">USA</option>
+                        <option value="mexico">Mexico</option>
+                      </optgroup>
+                    </select>
+                    <br><br>
+                    <input type="submit" value="Submit">
+                  </form>
+            </section>
+        </main>
+        <footer>
+        <hr>
+        <h2>Contact Me</h2>
+        <nav>
+            <ul>
+                <li><a href="mailto:dennisliang01@gmail.com">Email</a></li>
+                <li><a href="https://www.linkedin.com/in/dennisbliang/">LinkedIn</a></li>
+            </ul>
+        </nav>
+        </footer>
+        <!-- <script src="index.js"></script> -->
+    </body>
+</html>
